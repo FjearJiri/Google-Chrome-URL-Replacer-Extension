@@ -1,0 +1,1 @@
+window.location = window.location.href.replace(/%20/g, "+");

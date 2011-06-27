@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "include_globs": [ "http://www.metacritic.com/search/*%20*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Replaces '%20' in metacritic search request to '+'",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChgjDOSADi7Ue5gZ2d+xcQWNlX9HYsPuyscIJyOR7Q3zkiZ60EQL7ZLEwQ0y1PVILeQsMJ41RxbV7Ibrlge4ci7AWWEDizuDxS43Cc7nA6KVHxRN3LBhGTwcxd0N9mG3rirY89Kg2xT6mVjLt1sKRdMz34FWt/G2HV3rF4DZKaiQIDAQAB",
+   "name": "Metacritic search replacer",
+   "version": "0.1"
+}
